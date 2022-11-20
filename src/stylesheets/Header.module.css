@@ -1,0 +1,30 @@
+.header {
+  height: 6rem;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.headerwrapper {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(2, auto);
+}
+
+.heading {
+  top: 2rem;
+  left: 4rem;
+  cursor: pointer;
+  position: absolute;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 320px) {
+  .heading {
+    left: 2rem;
+  }
+}

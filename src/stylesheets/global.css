@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #ccc;
+  background-color: #000015;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+a,
+li {
+  color: unset;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+input {
+  width: 100%;
+  color: #ccc;
+  outline: none;
+  border-radius: 3px;
+  background-color: transparent;
+}
+input[type="email"],
+input[type="password"] {
+  margin: 1% 0;
+  padding: 2.5%;
+  font-weight: 600;
+}
+input::placeholder {
+  text-transform: capitalize;
+}
+button {
+  color: #ccc;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+button[type="submit"] {
+  width: 25%;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  padding: 0.4rem 0;
+}
+
+@media screen and (min-width: 360px) {
+}
+@media screen and (min-width: 384px) {
+}
+@media screen and (min-width: 412px) {
+}
